@@ -12,7 +12,7 @@ const Hero = () => {
           muted
           playsInline
           className="w-full h-full object-cover opacity-40 mix-blend-screen"
-          poster="/video_editing_03.jpg"
+          poster="/Gemini_Generated_Image_nyz8janyz8janyz8.png"
         >
           {/* Using a placeholder cinematic sports video */}
           <source src="https://assets.mixkit.co/videos/preview/mixkit-running-on-a-dark-sports-stadium-41614-large.mp4" type="video/mp4" />
