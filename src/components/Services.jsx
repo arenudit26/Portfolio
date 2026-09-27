@@ -9,8 +9,8 @@ const servicesList = [
   },
   {
     icon: <Video size={28} className="text-stadium-orange" />,
-    title: "Cricket Highlight Edits",
-    desc: "High-energy, fast-paced sports edits perfectly synced to music, focusing on impact and momentum."
+    title: "Cinematic Edits",
+    desc: "High-energy, fast-paced edits perfectly synced to music, focusing on impact and momentum."
   },
   {
     icon: <MonitorPlay size={28} className="text-purple-400" />,

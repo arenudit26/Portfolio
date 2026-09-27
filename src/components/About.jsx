@@ -97,9 +97,9 @@ const About = () => {
                 delay={0.4}
               />
               <JourneyCard
-                year="Present"
-                title="Engineering & Art"
-                desc="Balancing an engineering degree while taking on freelance projects, and building immersive web experiences."
+                year="2026"
+                title="First Major Software - DavinciResolve"
+                desc="Finally got my hands on Davinci Resolve for increasing the quality of my edits and serving some premium content.Dove into Color grading , Cinematic edits eperimenting more advanced features on Davinci ."
                 delay={0.6}
               />
             </div>

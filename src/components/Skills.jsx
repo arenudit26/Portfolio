@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
 
 const skillsData = [
-  { name: 'VN Editor', level: 95, color: 'bg-[#00005c]', glow: 'shadow-[0_0_15px_rgba(0,0,92,0.8)]' },
-  { name: 'CapCut Editor', level: 85, color: 'bg-[#9999ff]', glow: 'shadow-[0_0_15px_rgba(153,153,255,0.8)]' },
+  { name: 'Davinci Resolve', level: 95, color: 'bg-[#00005c]', glow: 'shadow-[0_0_15px_rgba(0,0,92,0.8)]' },
+  { name: 'CapCut & VN Editor', level: 85, color: 'bg-[#9999ff]', glow: 'shadow-[0_0_15px_rgba(153,153,255,0.8)]' },
   { name: 'Color Grading', level: 90, color: 'bg-stadium-orange', glow: 'shadow-[0_0_15px_rgba(255,140,0,0.8)]' },
   { name: 'Sound Design', level: 80, color: 'bg-neon-blue', glow: 'shadow-[0_0_15px_rgba(0,240,255,0.8)]' },
 ];
 
 const badges = [
-  "CapCut", "Motion Graphics", "Storytelling", "Creative Direction", "Beat Syncing", "Visual Effects"
+  "DavinciResolve", "Motion Graphics", "Storytelling", "Creative Direction", "Beat Syncing", "Visual Effects"
 ];
 
 const Skills = () => {

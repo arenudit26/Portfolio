@@ -1,16 +1,22 @@
-# React + Vite
+# Udit — Video Editing Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Run locally
 
-Currently, two official plugins are available:
+```bash
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The portfolio's Featured Edits section includes four portrait video projects with original audio. Videos are intentionally not muted or autoplayed: visitors can press play and use the native controls.
 
-## React Compiler
+Current edits:
+- Cinematic Edit
+- Delhi Edit
+- Maharashtra — Pune Trip
+- Spider-Man — BND
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+All portfolio videos are packaged in `public/videos/` and encoded as H.264 video + AAC audio for broad browser compatibility.
 
-## Expanding the ESLint configuration
+## Add another edit later
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add the MP4 to `public/videos/`, then add an object to the `edits` array in `src/components/FeaturedEdits.jsx`.
